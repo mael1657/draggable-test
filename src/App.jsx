@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Draggable from "react-draggable";
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
     <div className="App">
-      <Draggable>
-        <div>ㅎㅇㅎㅇ</div>
-      </Draggable>
-      <div draggable>드래거블 태그</div>
+      <AppRouter />
     </div>
   );
 }
