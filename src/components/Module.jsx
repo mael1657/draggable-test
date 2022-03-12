@@ -5,11 +5,9 @@ import Draggable from "react-draggable";
 export const Square = (props) => {
   const nodeRef = useRef(null);
   return (
-    <>
-      <Draggable nodeRef={nodeRef}>
-        <SquareStyledBox ref={nodeRef}>{props.children}</SquareStyledBox>
-      </Draggable>
-    </>
+    <Draggable nodeRef={nodeRef}>
+      <SquareStyledBox ref={nodeRef}>{props.children}</SquareStyledBox>
+    </Draggable>
   );
 };
 
