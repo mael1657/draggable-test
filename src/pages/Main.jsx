@@ -6,10 +6,19 @@ const Main = () => {
   return (
     <Wrap>
       <Button>
-        <Link to="drag">go to Drag</Link>
+        <Link to="drag">go to react-Draggable</Link>
       </Button>
       <Button>
-        <Link to="flow">go to Flow</Link>
+        <Link to="flow">go to react-Flow</Link>
+      </Button>
+      <Button>
+        <Link to="zoom">go to Zoom pan pinch</Link>
+      </Button>
+      <Button>
+        <Link to="craft">go to Craft</Link>
+      </Button>
+      <Button>
+        <Link to="product">Product</Link>
       </Button>
     </Wrap>
   );
